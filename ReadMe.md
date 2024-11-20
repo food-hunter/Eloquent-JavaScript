@@ -19,3 +19,17 @@ Right-click the file you want to run and select Open in Terminal. 2. Run the Fil
 In the terminal, type the following command, replacing Chapter_2_FizzBuzz.js with the name of the file you want to run:
 
 `nodemon --exec "clear && node" Chapter_2_FizzBuzz.js`
+
+## notes
+
+````
+if (condition1) {
+  // Code to run if condition1 is true
+} else if (condition2) {
+  // Code to run if condition1 is false and condition2 is true
+} else if (condition3) {
+  // Code to run if all previous conditions are false and condition3 is true
+} else {
+  // Code to run if none of the conditions are true
+}```
+````
